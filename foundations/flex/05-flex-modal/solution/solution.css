@@ -71,6 +71,7 @@ button.cancel {
 /* SOLUTION: */
 
 .modal {
+  background-color: aqua;
   display: flex;
   gap: 16px;
   padding: 16px;
@@ -82,7 +83,7 @@ button.cancel {
 }
 /* header container should be wrapped around the button element as well in order for flex style to work */
 .header {
-  display: flex;
+  
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
